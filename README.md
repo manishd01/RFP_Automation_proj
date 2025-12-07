@@ -81,7 +81,7 @@ npm install
 npm run dev
 ```
 
-Open your browser at `http://localhost:5173` (or port shown in terminal).
+Open your browser at `http://localhost:3000` (or port shown in terminal).
 
 ---
 
@@ -123,17 +123,3 @@ frontend/
 - Compare proposals and choose the best vendor
 
 ---
-
-## Contributing
-
-1. Fork the repository  
-2. Create a feature branch  
-3. Commit your changes with clear messages  
-4. Submit a pull request
-
----
-
-## License
-
-MIT License © 2025
-
