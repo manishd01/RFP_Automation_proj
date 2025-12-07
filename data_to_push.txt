@@ -1,0 +1,265 @@
+
+.
+
+📌 RFP Example 1
+
+We need to procure the following items for our development team:
+
+1. Item Name: Desktop PC
+Quantity: 25
+Type: Computing Hardware
+Processor: Intel Core i5
+RAM: 8GB
+Storage: SSD 256GB
+
+2. Item Name: Keyboard & Mouse Combo
+Quantity: 25
+Type: Accessories
+Processor: N/A
+RAM: N/A
+Storage: N/A
+Size: Standard
+
+Budget: 40,000
+Timeline: 20 days
+Payment Terms: Net 30
+Warranty: 1 year
+Evaluation Criteria: Performance, Cost, Delivery Speed
+
+📌 RFP Example 2
+
+We need to procure the following items for our design studio:
+
+1. Item Name: Graphics Workstation
+Quantity: 10
+Type: Workstation
+Processor: Intel Core i9
+RAM: 32GB
+Storage: 1TB SSD
+
+2. Item Name: 4K Monitor
+Quantity: 10
+Type: Display Hardware
+Processor: N/A
+RAM: N/A
+Storage: N/A
+Size: 32-inch
+
+Budget: 1,20,000
+Timeline: 45 days
+Payment Terms: Net 45
+Warranty: 2 years
+Evaluation Criteria: Color Accuracy, Performance, Warranty
+
+📌 RFP Example 3
+
+We need to procure the following items for our support center:
+
+1. Item Name: Basic Laptop
+Quantity: 30
+Type: Laptop
+Processor: Intel Core i3
+RAM: 8GB
+Storage: 256GB SSD
+
+2. Item Name: Headset with Mic
+Quantity: 30
+Type: Accessories
+Processor: N/A
+RAM: N/A
+Storage: N/A
+Size: Universal
+
+Budget: 55,000
+Timeline: 25 days
+Payment Terms: 50% Advance
+Warranty: 1 year
+Evaluation Criteria: Cost, Durability, Delivery
+
+📌 RFP Example 4
+
+We need to procure the following items for our training facility:
+
+1. Item Name: Projector
+Quantity: 3
+Type: AV Equipment
+Processor: N/A
+RAM: N/A
+Storage: N/A
+Brightness: 3500 lumens
+
+2. Item Name: Whiteboard
+Quantity: 6
+Type: Office Supply
+Processor: N/A
+RAM: N/A
+Storage: N/A
+Size: 6x4 ft
+
+3. Item Name: Headset with Mic
+Quantity: 30
+Type: Accessories
+Processor: N/A
+RAM: N/A
+Storage: N/A
+Size: Universal
+
+Budget: 30,000
+Timeline: 15 days
+Payment Terms: Net 15
+Warranty: 1 year
+Evaluation Criteria: Quality, Cost, Delivery Time
+
+📌 RFP Example 5
+
+We need to procure the following items for our networking setup:
+
+1. Item Name: Wireless Access Point
+Quantity: 12
+Type: Networking Hardware
+Processor: Dual-Core
+RAM: N/A
+Storage: N/A
+Speed: WiFi 6
+
+2. Item Name: Network Switch
+Quantity: 5
+Type: Networking Hardware
+Processor: N/A
+RAM: N/A
+Storage: N/A
+Ports: 24-Port
+
+Budget: 75,000
+Timeline: 35 days
+Payment Terms: Net 30
+Warranty: 3 years
+Evaluation Criteria: Reliability, Throughput, Support SLA
+
+📌 RFP Example 6
+
+We need to procure the following items for our video editing team:
+
+Item Name: High-Performance Laptop
+Quantity: 8
+Type: Professional Laptop
+Processor: Intel Core i9
+RAM: 64GB
+Storage: 2TB SSD
+
+Item Name: Studio Monitor Speaker
+Quantity: 8
+Type: Audio Equipment
+Processor: N/A
+RAM: N/A
+Storage: N/A
+Size: 5-inch driver
+
+Budget: 2,50,000
+Timeline: 40 days
+Payment Terms: Net 45
+Warranty: Minimum 2 years
+Evaluation Criteria: Performance, Build Quality, Warranty
+
+--------------------------------------------------------------
+
+
+
+
+✅ Vendor Records (Name + Email)
+1.
+
+name: Rohit Sharma Enterprises
+
+email: mannishh02@gmail.com
+
+2.
+
+name: Aarav Technologies
+
+email: mannishh02@gmail.com
+
+3.
+
+name: Kavya IT Solutions
+
+email: mannishh02@gmail.com
+
+4.
+
+name: Vertex Systems
+
+email: vertex.systems@hotmail.com
+
+5.
+
+name: Global Infocom Services
+
+email: contact@globalinfocom.in
+
+6.
+
+name: Skyline Tech Innovations
+
+email: support@skylinetech.co
+
+
+
+
+------------------------------------------------------------
+Hello,
+
+Thank you for sharing your RFP. Please find our proposal below:
+
+Desktop PC (25 units)
+Type: Computing Hardware
+Processor: Intel Core i5
+RAM: 8GB
+Storage: SSD 256GB
+Price per unit: ₹620
+Total: ₹15500
+
+Keyboard & Mouse Combo (25 units)
+Type: Accessories
+Size: Standard
+Price per unit: ₹25
+Total: ₹625
+
+Subtotal: ₹16125
+Taxes: ₹1150
+Grand Total: ₹17275
+
+Timeline: We can deliver all items within 18 days, ahead of your 20-day requirement.
+Warranty: 1 year standard warranty for all items.
+
+We look forward to working with you. Please let us know if you need any further clarification.
+
+Best regards,
+[Vendor Team]
+
+
+
+
+
+----------------------------------------------------------------------
+
+
+
+things to implement in future:
+- make good ui and UI wise working of proposals
+- creating table wise apporch to show comparision of various vendor prices and choose best one
+- 
+
+
+
+why python:
+NLP (extracting details from emails)
+
+Scoring proposals
+
+Comparing text
+
+Summaries & intelligent matching
+
+
+why not java /nodejs ->  Node/Java? They mainly wrap Python libraries anyway.
