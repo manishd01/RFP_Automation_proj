@@ -28,6 +28,7 @@ def match_rfp_from_subject(subject):
 def process_incoming_email(db: Session, email_from: str, subject: str, raw_email: str):
     vendor = crud.get_vendor_by_email(db, email_from)
     print("Matched vendor:", vendor)
+    # /getting rfp id: form subject::
     if not vendor:
         return
     match = re.search(r"#(\d+):", subject)
@@ -40,8 +41,31 @@ def process_incoming_email(db: Session, email_from: str, subject: str, raw_email
     print("Matched RFP ID from subject:", rfp_id)
     if not rfp_id:
         return
+    
+
+     # ---------------------------------
+    # 2️⃣ Extract Vendor ID from subject
+    # ---------------------------------
+    vendor_match = re.search(r"vendor id:\s*(\d+)", subject, re.IGNORECASE)
+    vendor_id = int(vendor_match.group(1)) if vendor_match else None
+
+    if vendor_id:
+        vendor = crud.get_vendor_by_id(db, vendor_id)
+        print("Vendor extracted from subject:", vendor_id)
+    else:
+        vendor = crud.get_vendor_by_email(db, email_from)
+        print("Vendor fallback from email:", vendor)
+
+    if not vendor:
+        print("❌ Vendor not found from subject or email:", email_from)
+        return
+
+
+
+
     comm_log = crud.get_outbound_log(db, vendor.id, rfp_id)
-    print("Processing email from:", email_from, "for RFP ID:", rfp_id,"detaisl", comm_log)
+    print("Processing email from:", email_from, "for RFP ID:", rfp_id,"vednor--- id:",
+          vendor.id,"detaisl", comm_log)
     # if comm_log and not comm_log.reply_received:
     #     crud.mark_reply_received(db, comm_log.id)
 
@@ -54,6 +78,7 @@ def process_incoming_email(db: Session, email_from: str, subject: str, raw_email
     # -----------------------------
     # 🔥 AUTO-CREATE PROPOSAL ENTRY
     # -----------------------------
+    # vendorid_from_comm_logs = 
     print("Going to create proposal now...",comm_log, " ",comm_log.reply_received )
     proposal_in = ProposalCreate(
         vendor_id=vendor.id,
